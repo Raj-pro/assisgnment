@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vite App</title>
+    <link href= "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+
+
+<div id="header" class="flex justify-between items-center py-4 mr-10">
+    <p class="text-3xl font-bold text-gray-800"></p>
+    <div class="hidden md:flex items-center">
+        <a href="#" class="text-red-500 hover:text-gray-700 mr-4">Blog</a>
+        <a href="#" class="text-black hover:text-gray-700 mr-4">Works</a>
+        <a href="#" class="text-black hover:text-gray-700">Contact</a>
+    </div>
+    <button class="text-gray-500 hover:text-gray-700 md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+</div>
+
+<main class="py-8 px-2 md:px-24 ">
+  <div class="grid grid-cols-1 gap-2">
+    <h1 class="text-2xl font-bold text-gray-900 mb-2 ml-2">Blog</h1>
+      <div class="bg-white rounded-md p-2">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">UI Interactions of the week</h2>
+          <p class="text-gray-600"><span class="text-gray-900">12 Feb 2019</span> | Express, Handlebars</p>
+          <p class="text-gray-900 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <hr>
+      </div>
+      <div class="bg-white rounded-md p-2">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">UI Interactions of the week</h2>
+          <p class="text-gray-600"><span class="text-gray-900">12 Feb 2019</span> | Express, Handlebars</p>
+          <p class="text-gray-900 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <hr>
+        </div>
+      <div class="bg-white rounded-md p-2">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">UI Interactions of the week</h2>
+          <p class="text-gray-600"><span class="text-gray-900">12 Feb 2019</span> | Express, Handlebars</p>
+          <p class="text-gray-900 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <hr>
+      </div>
+      <div class="bg-white rounded-md p-2">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">UI Interactions of the week</h2>
+          <p class="text-gray-600"><span class="text-gray-900">12 Feb 2019</span>  |  Express, Handlebars</p>
+          <p class="text-gray-900 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <hr>
+      </div>
+  </div>
+</main>
+
+<div id="footer" class="relative text-left h-40 flex flex-col justify-end items-center">
+  <div class="flex flex-row justify-center items-center">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover " src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/instagram-1024.png">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6cyXFuvIhVU-MR7ifSW4NoaEJUdgDluvFw&s">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-1024.png">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png">
+  </div>
+  <div>
+    <p>Copyright ©2020 All rights reserved</p>
+    <br>
+  </div>
+</div>
+  </div>
+  <script type="module" src="./main.js"></script>
+  <script src="./app.js" ></script>
+</body>
+</html>

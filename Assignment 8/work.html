@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vite App</title>
+    <link href= "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+
+
+<div class="flex justify-between items-center py-4 mr-10">
+    <p class="text-3xl font-bold text-gray-800"></p>
+    <div class="hidden md:flex items-center">
+      <a href="#" class="text-black hover:text-gray-700 mr-4">Blog</a>
+      <a href="#" class="text-red-500 hover:text-gray-700 mr-4">Works</a>
+      <a href="#" class="text-black hover:text-gray-700">Contact</a>
+    </div>
+    <button class="text-gray-500 hover:text-gray-700 md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+</div>
+
+
+    <div class="py-8 px-2 md:px-32 ">
+      <h3 class="text-xl font-bold text-gray-800 mb-2 mx-4">Work</h3>
+      <div class="">
+          <div class="bg-white p-4 md:flex md:flex-row md:h-44 md:w-52 mt-2">
+              <img class=" md:object-cover md:h-48 md:w-48 rounded-lg md:mb-4 " src="https://s3-alpha-sig.figma.com/img/1c6b/bc0b/e719e9d93c02a87ba51308ebb0297cdf?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FEmK6IRtAtTxac6lWcdvK3UdON3VaJyGvf4ubmdWAcb8k2NUp-gzpAhk-BmZtTDeqDWFNn-bvB73-Tz15y1q12JLcmDix2PQBFyhlprjWyn~7vQfEGc6ulKQ4PE5NLdk6ukfkjDLJR7lyId4cqrk5e5E7NIELIRDbvsst6v29pJMrqui1LnDBughhPK~fA4JbhMEIwmlyaw1MejcPw5t8Cy7Uxrh8aJnZWiH-NGyBtA4AQoO~b7oFuNxO2twAYgewyA4n8Qjx4dHfOzDXNnxc4HC6BPr2vCyOTkAisCQD9bnswlDwy2pj0OIKlYfRlPFMUlEQ~XG3nabjOG-kKHdXA__" alt="Designing Dashboards" >
+              <a href="#">
+              <div class="ml-6 flex flex-col ">
+              <h4 class="text-2xl font-bold text-gray-800 mb-4">Designing Dashboards</h4>
+              <p class="text-gray-500 mb-6"><span class="bg-indigo-900 text-white rounded-full text-xs px-1 font-bold">2020</span> <span class="m-4">  Dashboard</span></p>
+              <p class="text-gray-900">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                 Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+              </a>
+          </div>
+          <hr>
+          <div class="bg-white p-4 md:flex md:flex-row md:h-44 md:w-52 mt-2">
+              <img  class="md:object-cover md:h-48 md:w-48 rounded-lg md:mb-4 " src="https://s3-alpha-sig.figma.com/img/44dc/7799/6f359e2db24fc4e08bfd61cf50427139?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UZTjHGSE1o2tPQWwZxXwi6zoVW~jOed341Bop5whPX06UJqKPxO~3f~ga9u6BZhQ8ZxZlnsffccgRPCmEDhBsirVBGFbWM2TIVwghObhl1ztf94BbjxmwET54W8TEBiNVGK9wy80RouwWhRofXk-UfInMRUVoKOx9K0HGlpaRSxsTcwSg6f4nIpupY5iLs07R64otZnNF05AcHmqd7PCMt4X0IHe1kRVLRp3adgeyBc6oa64FaV~JP64p8MUHXCDl2AMNVDR93LDXc5o5sONsCvfI8UJuAEufoh6MiPPdvwaIZhRbG7o91nopSdMtBskLD~bfWSRcn1mdMlTfrg0QQ__" alt="Vibrant Portraits of 2020">
+              <div class="ml-6 flex flex-col ">
+              <h4 class="text-2xl font-bold text-gray-800 mb-4">Vibrant Portraits of 2020</h4>
+              <p class="text-gray-500 mb-6"><span class="bg-indigo-900 text-white rounded-full text-xs px-1 font-bold">2018</span>  <span class="m-4"> Illustration</span></p>
+              <p class="text-gray-900">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                 Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+          </div>
+          <hr>
+          <div class="bg-white p-4 md:flex md:flex-row md:h-44 md:w-52 mt-2">
+              <img class="md:object-cover md:h-48 md:w-48 rounded-lg md:mb-4 " src="https://s3-alpha-sig.figma.com/img/a511/7cdc/a561b38768fbe6667854fc00641b25fb?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n9Z7eU4UODwRy3XcsyPlzeqlLx6mqujodICMFmQlbeFtmC-hNixjZ~gPasw1UIsMvb58sh0wTlXHbfHdB3i5~zm9nBavPfQ7yMlZFbKj5NySSpoRjAUa5~HgikKWLAdA0bqzNEioNOvTWcS4eX8J6Re-2jvsn5FDYeeTBVq4o0NI5-NLN1FDiFxLZiMLnJ3jI-aaSB01wJQxf5oeJp3f5af8Tb4LLLyfLxWy1Wj3rC2QzcFusfHH3FMb6C6b8wrwV0Opl4--FWiRrpbzid~X0D2Zf4Mw3Cu4FUX7z2~jUtJym5W7LFRFX~7hfYNUqV3oV06dyqf50IOZQkQcn5vi1w__" alt="36 Days of Malayalam type" >
+              <div class="ml-6 flex flex-col ">
+              <h4 class="text-2xl font-bold text-gray-800 mb-4">36 Days of Malayalam type</h4>
+              <p class="text-gray-500 mb-6"><span class="bg-indigo-900 text-white rounded-full text-xs px-1 font-bold"> 2020</span> <span class="m-4">  Typography</span></p>
+              <p class="text-gray-900">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                 Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+          </div>
+          <hr>
+          <div class="bg-white p-4 md:flex md:flex-row md:h-44 md:w-52 mt-2">
+            <img  class="md:object-cover md:h-48 md:w-48 rounded-lg md:mb-4 " src="https://s3-alpha-sig.figma.com/img/c493/dd85/ae266af13b0a7129c8191f3efbfe12b5?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XS-E5EoZ1Evf~PiGl1nlko0zYJpZv09QvGd0hPSkhJxkZqSCqMFbDjLOYf-4J-dyy2pfP22TgyKyZa71-tX5~wBR5c6AEvYbfp78Yza7jfxIaSrpdHUZG0QB4WS7gSXC0mXIggFy1s0GnHEeG6wOQ437Prq4tE0WAt-G1HYizOrfgsCwJfB6BsTUkboRTldgLOin23xwau6bm6Cg5UWnH2fK8tVYtjiZN6UTTkLloB5MYfnS4cxVN7PtkIEFphyJR1ARzkWMcY2o-8GogOubTp0tuJiXTiBOuulWjyqYXT7BpVxTfvU7A4lh2AKFxAlAfYf3-cINlsmbAL9An2NJVQ__" alt="Vibrant Portraits of 2020">
+            <div class="ml-6 flex flex-col ">
+            <h4 class="text-2xl font-bold text-gray-800 mb-4">Vibrant Portraits of 2020</h4>
+            <p class="text-gray-500 mb-6"><span class="bg-indigo-900 text-white rounded-full text-xs px-1 font-bold">2018</span>  <span class="m-4"> Illustration</span></p>
+            <p class="text-gray-900">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+               Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        <hr>
+      </div>
+  </div>
+
+
+<div id="footer" class="relative text-left h-40 flex flex-col justify-end items-center">
+  <div class="flex flex-row justify-center items-center">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover " src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/instagram-1024.png">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6cyXFuvIhVU-MR7ifSW4NoaEJUdgDluvFw&s">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-1024.png">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png">
+  </div>
+  <div>
+    <p>Copyright ©2020 All rights reserved</p>
+    <br>
+  </div>
+</div>
+  </div>
+  <script type="module" src="./main.js"></script>
+  <script src="./app.js" ></script>
+</body>
+</html>

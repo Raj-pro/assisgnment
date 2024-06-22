@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vite App</title>
+    <link href= "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+
+
+<div class="flex justify-between items-center py-4 mr-10">
+    <p class="text-3xl font-bold text-gray-800"></p>
+    <div class="hidden md:flex items-center">
+      <a href="#" class="text-black hover:text-gray-700 mr-4">Blog</a>
+      <a href="#" class="text-red-500 hover:text-gray-700 mr-4">Works</a>
+      <a href="#" class="text-black hover:text-gray-700">Contact</a>
+    </div>
+    <button class="text-gray-500 hover:text-gray-700 md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+</div>
+
+
+    <div class="py-8 px-2 md:px-32 md:mx-4 ">
+      <h3 class="text-2xl font-bold text-gray-800 mb-2 ">Work</h3>
+          <div class="bg-white md:flex md:flex-col md:h-44 md:w-52 mt-2">
+              
+              <h4 class="text-2xl font-bold text-gray-800 mb-4">Designing Dashboards with usability in mind</h4>
+              <p class="text-gray-500 mb-6"><span class="bg-red-500 text-white rounded-full text-xs px-1 font-bold">2020</span> <span class="m-4">  Dashboard</span></p>
+              <p class="text-gray-900">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                 Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              
+              <img class=" md:object-cover mt-4 mb-4 " src="https://s3-alpha-sig.figma.com/img/ee4c/417f/e09e58bc78b83e1727fd5b43287859c1?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nUqYEFTRL1bl4i5R7vL~aW54inlqlkw08MZYb3QvyPfUMvbGWuiEk7-3oZEXANg3Q5KznFIGUfY8QnESMLENkP2ya32m0Cthpb-vY-AGaTWlRL8z4nEfwHJM4sjjud9kDRW2OvVF4fynJrwnj~IcbtkXjVPkPDSrUgrcN0jBfoJK7fmWRvKAmA6ZtpVRE3mG2SjaqTs~AzOQpR50vgJXkhaZ13zi0sBtSB6Qye7-2GRAfKIHx7C-MjJG3PqPlnwFWWBirAH6atD5Sh8gzJXV1N4hZJq6USqrlWFusejFiyg6RMd7rUyOjjGmhTEAd6w3uCm4RyjktYqhPzjoXn1rog__" alt="Designing Dashboards" >
+          </div>
+          <h1 class="text-xl font-bold mb-4 ">Heading 1</h1>
+          <h2 class="text-lg font-bold mb-4 ">Heading 2</h2>
+          <p class="text-gray-900 ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <img class=" md:object-cover mt-4 md:mb-4 mb-2 " src="https://s3-alpha-sig.figma.com/img/d986/ab1f/884ac19526fd2491ea0b40e9bee97049?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U1eVheP~wEOFrOcO~aFWcAaFLVL-VWaxO5tqQ17tM1d5mIzg1jZr2ueoy6a6DWaZT3LLu9qiIm9FPWviR2ms68Q5cAkLD~hMcaKt5VvWlGBwpG64VoYsKPxDST96NC4OPHOkAyoxqLGVhasLi~7njolLKjDoZA7obGd0VE2ouzhy3yDIJ8CPUEGwG2UccIFQ9jX4yC0DgnEhLbowpFH-1jcxIcOLQouleNOSFzsFvKSw39uSIker1gk4Ywlf8y6jQAZdYoNc7BbH4m~lEdrio1Lp2R~umJlh4YdKo710Rp~IkkrJlk~GunUZQiLa5fEqG0MpN0~zXBdqMi-8ElHEDA__" alt="Designing Dashboards" >
+          <img class=" md:object-cover mt-4 md:mb-4 mb-2 " src="https://s3-alpha-sig.figma.com/img/b4e7/6714/252f22ce390e5bad81de4a04a3446a45?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QhcRd5-T26RWEyiR4wDQ8W5rr9zTWTpLanjhpAvG7FweyZPqIe7-OF-HNIvgg1r123677FAo~p39tNCi23OKZCT~s-NqJx0bSXWvWeNZ7HQuQzOR1cY3mCuV~AoUlBuICGahguhYcwxgRxjZRv5KRf3wfcf8acfqtCVl3nJFN7a1Rww3WiIzFlhTXa0nt1lPVCrK~YUv6BE2F-vCj0Qkq98kwtcCgEOp7YAKAImFKbNjj~i4gKLahoAPrel7rf3pEsJx3pErv9oBXg1sCwrcw2e5JWxC7HVnnTSAC1Gj7SYvtNIrFVH0RXPcVQrJKmbP3p8U~PXasqGU8JA1OoWDVQ__" alt="Designing Dashboards" >
+    </div>
+
+<div id="footer" class="relative text-left h-40 flex flex-col justify-end items-center">
+  <div class="flex flex-row justify-center items-center">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover " src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/instagram-1024.png">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6cyXFuvIhVU-MR7ifSW4NoaEJUdgDluvFw&s">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/twitter-1024.png">
+    <img class="h-8 w-8 max-w-full max-h-full object-cover ml-10" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png">
+  </div>
+  <div>
+    <p>Copyright ©2020 All rights reserved</p>
+    <br>
+  </div>
+</div>
+  </div>
+  <script type="module" src="./main.js"></script>
+  <script src="./app.js" ></script>
+</body>
+</html>
